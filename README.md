@@ -275,7 +275,7 @@ public class Main {
 }
 ```
 
-Luego hay que compilarlo, somo siempre, pero además empaquetarlo, mediante el assembly plugin. En resumen:
+Luego hay que compilarlo, como siempre, pero además empaquetarlo, mediante el assembly plugin. Acá hay un ejemplo de configuración: https://github.com/flbulgarelli/qmp6/blob/d233d7303e396cf2e885e40fca1c3b6964b7ce27/pom.xml#L30-L52. En resumen:
 
  1. Hacemos un archivo java con un `public static void main()`
  2. Configuramos al plugin de assembly en maven para que tome esa clase
